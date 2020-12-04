@@ -514,3 +514,78 @@ body {
 .or_sliced_inside .line3 {
     transform: rotate(-10deg);
 }
+
+/*inizio ciliege*/
+.cherry_fruit{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(201, 25, 69);
+    border-radius: 45px;
+    position: relative;
+    float: left;
+    margin-top: 90px;
+    -webkit-box-shadow: 0px 50px 50px -30px rgba(0,0,0,0.65); 
+box-shadow: 0px 50px 50px -30px rgba(0,0,0,0.65);
+    
+}
+.cherry_fruit:first-child{
+    margin-right: 20px;
+    -webkit-box-shadow: 0px 50px 50px -30px rgba(0,0,0,0.65); 
+box-shadow: 0px 50px 50px -30px rgba(0,0,0,0.65);
+}
+.cherry_fruit:nth-child(2){
+    margin-top: 80px;
+    -webkit-box-shadow: 0px 50px 50px -24px rgba(0,0,0,0.82); 
+box-shadow: 0px 50px 50px -24px rgba(0,0,0,0.82);
+}
+.riflesso{
+    
+    widows: 45px;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.534);
+    clip-path: polygon(51% 12%, 59% 15%, 64% 22%, 66% 29%, 68% 35%, 62% 35%, 56% 35%, 50% 34%, 48% 25%, 46% 19%, 45% 13%);
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.base_picciolo{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(0, 0, 0, 0.253);
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    clip-path: ellipse(50% 11% at 50% 50%);
+    transform: rotate(-40deg);
+}
+.picciolo{
+    height: 90px;
+    width: 150px;
+    border-radius: 100%;
+    border: 8px solid rgb(33, 175, 87);
+    clip-path: polygon(20% 50%, 100% 50%, 100% 100%, 0 100%);
+    position: absolute;
+    
+    transform: rotate(148deg) ;
+    margin-left:13px;
+    margin-top: 10px;
+}
+.punta_picciolo{
+    
+    background-color: rgb(21, 105, 53);
+    height: 8px;
+    width: 4px;
+    border-radius: 50%;
+    position: absolute;
+    top: -98%;
+    left: 35px;
+}
+.due{
+    margin-left: 103px;
+    margin-top: 20px;
+    z-index: 1;
+}
+.secondo{
+    margin-left: 200%;
+    margin-top: 20px;
+    z-index: 2;
+}
