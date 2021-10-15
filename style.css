@@ -127,18 +127,6 @@ body {
     overflow: hidden;
     clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
 }
-
-.wm_red_circle::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 20px;
-    background-color: rgba(255,255,255,.15);
-    width: 40%;
-    height: 100%;
-    transform: skewX(-30deg);
-}
-
 .wm_white_circle {
     position: absolute;
     width: 180px;
@@ -150,75 +138,76 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-.wm_red_circle {
+.wm_circle::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    background-color: rgba(255,255,255,.15);
+    width: 40%;
+    height: 100%;
+    transform: skewX(-30deg);
+}
+.red{
+    background-color: rgb(201, 25, 25);
+}
+.wm_circle {
     position: absolute;
     width: 170px;
     height: calc(100% - 10px);
-    background-color: rgb(201, 25, 25);
     border-radius: 50%;
     margin: 0 auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-.wm_red_circle span {
+.wm_circle span {
     position: absolute;
     background-color: #111;
     width: 8px;
     height: 5px;
     border-radius: 50%;
 }
-
-.wm_red_circle span:nth-child(1) {
+.wm_circle span:nth-child(1) {
     bottom: 45px;
     left: 20px;
     transform: rotate(14deg);
 }
-
-.wm_red_circle span:nth-child(2) {
+.wm_circle span:nth-child(2) {
     bottom: 15px;
     left: 46px;
     transform: rotate(-24deg);
 }
-
-.wm_red_circle span:nth-child(3) {
+.wm_circle span:nth-child(3) {
     bottom: 22px;
     right: 52px;
     transform: rotate(-45deg);
 }
-
-.wm_red_circle span:nth-child(4) {
+.wm_circle span:nth-child(4) {
     bottom: 45px;
     left: 76px;
     transform: rotate(36deg);
 }
-
-.wm_red_circle span:nth-child(5) {
+.wm_circle span:nth-child(5) {
     bottom: 45px;
     right: 46px;
     transform: rotate(44deg);
 }
-
-.wm_red_circle span:nth-child(6) {
+.wm_circle span:nth-child(6) {
     bottom: 36px;
     left: 53px;
     transform: rotate(-14deg);
 }
-
-.wm_red_circle span:nth-child(7) {
+.wm_circle span:nth-child(7) {
     bottom: 13px;
     left: 75px;
     transform: rotate(-24deg);
 }
-
-.wm_red_circle span:nth-child(8) {
+.wm_circle span:nth-child(8) {
     bottom: 42px;
     right: 19px;
     transform: rotate(75deg);
 }
-
 .wm_shadow {
     width: 200px;
     height: 10px;
@@ -231,6 +220,23 @@ body {
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,0) 100%);
     opacity: .15;
 }
+
+/* Yellow WATERMELON */ 
+
+.yellow{
+    background: rgb(247, 219, 54);
+}
+.wm_circle.yellow::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    background-color: rgba(255,255,255,.40);
+    width: 40%;
+    height: 100%;
+    transform: skewX(-30deg);
+}
+
 
 /* --------------------------------------------- */
 
